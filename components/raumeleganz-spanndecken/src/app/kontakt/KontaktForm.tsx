@@ -108,7 +108,7 @@ export default function KontaktForm() {
                 </div>
                 <div className="text-left">
                   <p className="text-xs text-slate-600 font-semibold">E-Mail</p>
-                  <p className="text-sm font-bold text-slate-900">info@raumeleganz.de</p>
+                  <p className="text-sm font-bold text-slate-900">info@raumeleganz-spanndecken.de</p>
                 </div>
               </a>
             </div>
@@ -247,7 +247,7 @@ export default function KontaktForm() {
                         href="mailto:info@raumeleganz-spanndecken.de"
                         className="text-cyan-600 hover:text-cyan-700 transition-colors font-bold break-all"
                       >
-                        info@raumeleganz.de
+                        info@raumeleganz-spanndecken.de
                       </a>
                       <p className="text-sm text-slate-600 mt-1">Antwort innerhalb 24h</p>
                     </div>
@@ -604,7 +604,7 @@ export default function KontaktForm() {
                   <svg className="w-5 h-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span className="font-semibold">info@raumeleganz.de</span>
+                  <span className="font-semibold">info@raumeleganz-spanndecken.de</span>
                 </div>
               </div>
             </div>
