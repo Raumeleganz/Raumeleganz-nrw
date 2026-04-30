@@ -15,16 +15,31 @@ export default function KontaktForm() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitError(null);
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const data = (await res.json()) as { ok: boolean; error?: string };
+      if (!res.ok || !data.ok) {
+        throw new Error(data.error || 'Senden fehlgeschlagen.');
+      }
+
+      setIsSubmitted(true);
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Senden fehlgeschlagen.');
+    } finally {
+      setIsSubmitting(false);
+    }
 
     // Track conversion & event
     trackEvent('form_submit', 'conversions', 'Kontaktformular', 1);
@@ -33,6 +48,7 @@ export default function KontaktForm() {
     // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false);
+      setSubmitError(null);
       setFormData({
         name: '',
         email: '',
@@ -332,6 +348,18 @@ export default function KontaktForm() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">
+                    {submitError && (
+                      <div className="rounded-2xl border-2 border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+                        <strong className="font-bold">Konnte nicht senden:</strong> {submitError}
+                        <div className="mt-1 text-red-700">
+                          Alternativ:{' '}
+                          <a className="underline font-semibold" href="mailto:info@raumeleganz-spanndecken.de">
+                            info@raumeleganz-spanndecken.de
+                          </a>
+                        </div>
+                      </div>
+                    )}
+
                     {/* Name */}
                     <div>
                       <label htmlFor="name" className="block text-sm font-bold text-slate-900 mb-2">
