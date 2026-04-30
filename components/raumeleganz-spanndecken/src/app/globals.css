@@ -10,8 +10,15 @@
 }
 
 @layer base {
+  html,
+  body {
+    height: 100%;
+  }
+
   body {
     @apply bg-warm-50 text-warm-900 antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 }
 
@@ -23,6 +30,22 @@
   .gradient-animate {
     background-size: 200% 200%;
     animation: gradient-shift 8s ease infinite;
+  }
+
+  /*
+    iOS Safari: 100vh / min-h-screen ist oft "kaputt" (Adressleiste).
+    Überschreibt Tailwind's h-screen/min-h-screen global mit svh/dvh.
+  */
+  .h-screen {
+    height: 100vh;
+    height: 100svh;
+    height: 100dvh;
+  }
+
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: 100dvh;
   }
 }
 

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
@@ -16,6 +17,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Raumeleganz Spanndecken | Modernes Handwerk mit Leidenschaft',
   description: 'Professionelle Spanndecken-Installation für Ihr Zuhause. Kreativ, zuverlässig, hochwertig.',
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
 };
 
 export default function RootLayout({
