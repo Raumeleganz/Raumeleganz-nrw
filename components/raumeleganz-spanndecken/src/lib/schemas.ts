@@ -11,7 +11,7 @@ export const localBusinessSchema = {
   "email": "info@raumeleganz-spanndecken.de",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Musterstraße 123",
+    "streetAddress": "Altenessenerstr. 95",
     "addressLocality": "Düsseldorf",
     "postalCode": "40XXX",
     "addressCountry": "DE"

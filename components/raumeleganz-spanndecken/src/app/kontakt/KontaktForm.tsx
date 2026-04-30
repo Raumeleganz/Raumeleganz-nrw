@@ -264,9 +264,9 @@ export default function KontaktForm() {
                     <div>
                       <p className="font-bold text-slate-900 mb-1">Adresse</p>
                       <p className="text-slate-700">
-                        Musterstraße 123
+                        Altenessenerstr. 95
                         <br />
-                        12345 Musterstadt
+                        45326 Essen
                       </p>
                       <p className="text-sm text-slate-600 mt-1">Termin nach Vereinbarung</p>
                     </div>

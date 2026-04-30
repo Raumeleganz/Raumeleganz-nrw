@@ -29,12 +29,12 @@ export default function ImpressumPage() {
               <div className="space-y-3 text-warm-800">
                 <p className="font-bold text-lg">Raumeleganz Spanndecken GmbH</p>
                 <p>
-                  Musterstraße 123<br />
-                  12345 Musterstadt
+                  Altenessenerstr. 95<br />
+                  45326 Essen
                 </p>
                 <p className="pt-4">
                   <span className="font-bold">Vertreten durch:</span><br />
-                  Geschäftsführer Max Mustermann
+                  Geschäftsführer Dani Temera Alyas
                 </p>
               </div>
             </section>
@@ -54,72 +54,6 @@ export default function ImpressumPage() {
                   >
                     info@raumeleganz-spanndecken.de
                   </a>
-                </p>
-              </div>
-            </section>
-
-            {/* Register */}
-            <section className="mb-10 pb-10 border-b border-warm-200">
-              <h2 className="text-2xl font-bold text-warm-900 mb-6">Registereintrag</h2>
-              <div className="space-y-3 text-warm-800">
-                <p>
-                  <span className="font-bold">Handelsregister:</span> Amtsgericht Musterstadt
-                </p>
-                <p>
-                  <span className="font-bold">Registernummer:</span> HRB 12345
-                </p>
-              </div>
-            </section>
-
-            {/* USt-ID */}
-            <section className="mb-10 pb-10 border-b border-warm-200">
-              <h2 className="text-2xl font-bold text-warm-900 mb-6">Umsatzsteuer-ID</h2>
-              <div className="text-warm-800">
-                <p>
-                  Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br />
-                  <span className="font-bold">DE123456789</span>
-                </p>
-              </div>
-            </section>
-
-            {/* Handwerkskammer */}
-            <section className="mb-10 pb-10 border-b border-warm-200">
-              <h2 className="text-2xl font-bold text-warm-900 mb-6">
-                Zuständige Kammer & Aufsichtsbehörde
-              </h2>
-              <div className="space-y-3 text-warm-800">
-                <p>
-                  <span className="font-bold">Handwerkskammer:</span> Handwerkskammer Musterstadt
-                </p>
-                <p>
-                  Musterweg 10<br />
-                  12345 Musterstadt
-                </p>
-                <p>
-                  <a
-                    href="https://www.hwk-musterstadt.de"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-craft-600 hover:text-craft-700 underline"
-                  >
-                    www.hwk-musterstadt.de
-                  </a>
-                </p>
-              </div>
-            </section>
-
-            {/* Berufshaftpflicht */}
-            <section className="mb-10 pb-10 border-b border-warm-200">
-              <h2 className="text-2xl font-bold text-warm-900 mb-6">Berufshaftpflichtversicherung</h2>
-              <div className="space-y-3 text-warm-800">
-                <p>
-                  <span className="font-bold">Versicherer:</span><br />
-                  Muster Versicherung AG<br />
-                  Versicherungsstraße 1<br />
-                  10000 Berlin
-                </p>
-                <p>
-                  <span className="font-bold">Geltungsbereich:</span> Deutschland, EU-weit
                 </p>
               </div>
             </section>

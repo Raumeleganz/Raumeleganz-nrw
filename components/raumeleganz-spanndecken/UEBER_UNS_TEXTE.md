@@ -87,7 +87,7 @@ Die offizielle Anerkennung als Meisterbetrieb – ein Meilenstein, der unsere Qu
 Unser Team besteht aus erfahrenen Handwerkern, kreativen Designern und serviceorientierten Beratern. Gemeinsam bilden wir eine Einheit, die Ihre Projekte von A bis Z begleitet.
 
 ### Einzelne Team-Member (optional)
-**Max Mustermann** – Geschäftsführer & Meister  
+**Dani Temera Alyas** – Geschäftsführer & Meister  
 "Perfektion ist kein Zufall, sondern das Ergebnis von Leidenschaft."
 
 **Anna Schmidt** – Design-Beraterin  

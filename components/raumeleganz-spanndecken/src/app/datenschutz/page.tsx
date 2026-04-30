@@ -35,8 +35,8 @@ export default function DatenschutzPage() {
                 <div className="bg-warm-50 p-6 rounded-xl">
                   <p className="font-bold">Raumeleganz Spanndecken GmbH</p>
                   <p>
-                    Musterstraße 123<br />
-                    12345 Musterstadt
+                    Altenessenerstr. 95<br />
+                    45326 Essen
                   </p>
                   <p className="mt-3">
                     <span className="font-bold">Telefon:</span> +49 (0) 20189083052<br />
