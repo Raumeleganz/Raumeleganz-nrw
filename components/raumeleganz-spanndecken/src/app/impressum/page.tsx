@@ -44,7 +44,7 @@ export default function ImpressumPage() {
               <h2 className="text-2xl font-bold text-warm-900 mb-6">Kontakt</h2>
               <div className="space-y-3 text-warm-800">
                 <p>
-                  <span className="font-bold">Telefon:</span> +49 (0) 123 456789
+                  <span className="font-bold">Telefon:</span> +49 (0)20189083052
                 </p>
                 <p>
                   <span className="font-bold">E-Mail:</span>{' '}

@@ -97,7 +97,7 @@ Wir beraten Sie gerne persönlich und finden gemeinsam die perfekte Lösung für
 
 ### Telefonberatung
 **Erreichbarkeit:** Mo-Fr: 8:00 - 18:00 Uhr  
-**Tel:** +49 (0) 123 456789
+**Tel:** +4920189083052
 
 ### Vor-Ort-Termin
 Kostenlose Besichtigung & Beratung direkt bei Ihnen vor Ort.

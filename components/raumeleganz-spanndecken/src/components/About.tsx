@@ -169,7 +169,7 @@ export default function About() {
               </Link>
 
               <Link
-                href="tel:+4921234567890"
+                href="tel:+4920189083052"
                 className="inline-flex items-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold text-lg rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 hover:scale-[1.02]"
               >
                 <svg

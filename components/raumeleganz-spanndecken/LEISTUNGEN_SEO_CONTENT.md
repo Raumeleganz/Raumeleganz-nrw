@@ -142,7 +142,7 @@ A: Spanndecken halten bis zu 100 Liter Wasser pro m² zurück! Wir pumpen das Wa
 ### Call-to-Action
 
 **Button:** Kostenlos beraten lassen → /kontakt  
-**Telefon:** +49 (0) 123 456789
+**Telefon:** +4920189083052
 
 ### Interne Links
 
@@ -268,7 +268,7 @@ A: Ja! Durch Lichtreflektion wirken niedrige Räume höher, enge Flure breiter. 
 ### Call-to-Action
 
 **Button:** Kostenlose 3D-Visualisierung anfordern → /kontakt  
-**Telefon:** +49 (0) 123 456789
+**Telefon:** +4920189083052
 
 ### Interne Links
 
@@ -434,7 +434,7 @@ A: Kein Problem – Spanndecken mit Clipsprofil lassen sich abnehmen, Spots nach
 ### Call-to-Action
 
 **Button:** Kostenlos Aufmaß & Angebot anfordern → /kontakt  
-**Telefon:** +49 (0) 123 456789  
+**Telefon:** +4920189083052
 **Alternative:** In 60 Sekunden Online-Kalkulator nutzen → /preisrechner (falls vorhanden)
 
 ### Interne Links
@@ -677,7 +677,7 @@ A: Nein. LED-Spots bleiben kühl (max. 40-50°C). Keine Brandgefahr, keine Hitze
 ### Call-to-Action
 
 **Button:** Lichtkonzept erstellen lassen → /kontakt  
-**Telefon:** +49 (0) 123 456789
+**Telefon:** +4920189083052
 
 ### Interne Links
 
@@ -803,7 +803,7 @@ A: Weniger als bei Hochglanz, mehr als bei Matt. Feucht abwischen reicht (ca. 2�
 ### Call-to-Action
 
 **Button:** Satin-Muster anfordern → /kontakt  
-**Telefon:** +49 (0) 123 456789
+**Telefon:** +4920189083052
 
 ### Interne Links
 
@@ -932,7 +932,7 @@ A: Ja, feucht abwischen genügt. Antistatisch = zieht kaum Staub an.
 ### Call-to-Action
 
 **Button:** Matt-Muster anfordern → /kontakt  
-**Telefon:** +49 (0) 123 456789
+**Telefon:** +4920189083052
 
 ### Interne Links
 
@@ -1007,7 +1007,7 @@ vector icon set, 6 minimal geometric room-ceiling icons, rounded corners, 2px ou
 
 **Standard:**
 - Button: "Kostenlos beraten lassen" → /kontakt
-- Telefon: +49 (0) 123 456789
+- Telefon: +4920189083052
 
 **Alternativen:**
 - "In 60 Sekunden Angebot anfordern"

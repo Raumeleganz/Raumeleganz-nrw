@@ -21,11 +21,11 @@ Ihr Partner für hochwertige Spanndecken. Seit über 15 Jahren verwandeln wir R�
 ## 📍 Kontaktdaten
 
 ### Adresse
-**Musterstraße 123**  
-**12345 Musterstadt**
+**Altenessenerstr. 95**  
+**45326 Essen**
 
 ### Telefon
-**+49 (0) 123 456789**
+**+4920189083052**
 
 ### E-Mail
 **info@raumeleganz-spanndecken.de**
@@ -203,12 +203,12 @@ Icons für:
   "name": "Raumeleganz Spanndecken",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Musterstraße 123",
-    "addressLocality": "Musterstadt",
-    "postalCode": "12345",
+    "streetAddress": "Altenessenerstr. 95",
+    "addressLocality": "Essen",
+    "postalCode": "45326",
     "addressCountry": "DE"
   },
-  "telephone": "+49123456789",
+  "telephone": "+4920189083052",
   "email": "info@raumeleganz-spanndecken.de",
   "openingHours": "Mo-Fr 08:00-18:00, Sa 09:00-14:00"
 }

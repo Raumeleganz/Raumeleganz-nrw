@@ -83,7 +83,7 @@ export default function KontaktForm() {
             {/* Quick Contact Options */}
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <a
-                href="tel:+49123456789"
+                href="tel:+4920189083052"
                 className="inline-flex items-center gap-3 px-6 py-3 bg-white rounded-xl border-2 border-slate-200 shadow-lg hover:border-cyan-400 hover:shadow-xl transition-all duration-200"
               >
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-white">
@@ -93,7 +93,7 @@ export default function KontaktForm() {
                 </div>
                 <div className="text-left">
                   <p className="text-xs text-slate-600 font-semibold">Direkter Draht</p>
-                  <p className="text-sm font-bold text-slate-900">+49 (0) 123 456789</p>
+                  <p className="text-sm font-bold text-slate-900">+49 (0) 20189083052</p>
                 </div>
               </a>
 
@@ -225,10 +225,10 @@ export default function KontaktForm() {
                     <div>
                       <p className="font-bold text-slate-900 mb-1">Telefon</p>
                       <a
-                        href="tel:+49123456789"
+                        href="tel:+4920189083052"
                         className="text-cyan-600 hover:text-cyan-700 transition-colors font-bold"
                       >
-                        +49 (0) 123 456789
+                        +49 (0) 20189083052
                       </a>
                       <p className="text-sm text-slate-600 mt-1">Mo-Fr: 8:00 - 18:00 Uhr</p>
                     </div>
@@ -377,7 +377,7 @@ export default function KontaktForm() {
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 bg-slate-50 border-2 border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition-all duration-200"
-                          placeholder="+49 123 456789"
+                          placeholder="+49 20189083052"
                         />
                       </div>
                     </div>
@@ -566,7 +566,7 @@ export default function KontaktForm() {
 
               <div className="flex flex-wrap justify-center gap-4 mb-10">
                 <a
-                  href="tel:+49123456789"
+                  href="tel:+4920189083052"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold text-lg rounded-xl shadow-2xl hover:bg-slate-50 transition-all duration-200 hover:scale-[1.02]"
                 >
                   <svg className="w-6 h-6 text-cyan-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
@@ -592,7 +592,7 @@ export default function KontaktForm() {
                   <svg className="w-5 h-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  <span className="font-bold">+49 (0) 123 456789</span>
+                  <span className="font-bold">+49 (0) 20189083052</span>
                 </div>
                 <div className="flex items-center gap-2 text-white/90">
                   <svg className="w-5 h-5 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">

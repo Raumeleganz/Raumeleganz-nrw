@@ -96,7 +96,7 @@ export default function StadtContent({ city }: StadtContentProps) {
                   Kostenlose Beratung
                 </Link>
                 <Link
-                  href="tel:+4921112345678"
+                  href="tel:+4920189083052"
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 font-bold rounded-xl border-2 border-slate-200 hover:border-cyan-400 hover:shadow-lg transition-all duration-200"
                 >
                   <svg className="w-5 h-5 text-cyan-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
@@ -819,7 +819,7 @@ export default function StadtContent({ city }: StadtContentProps) {
                 Beratung buchen
               </Link>
               <Link
-                href="tel:+4921112345678"
+                href="tel:+4920189083052"
                 className="inline-flex items-center justify-center gap-2 px-10 py-5 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 hover:scale-[1.02] text-lg"
               >
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">

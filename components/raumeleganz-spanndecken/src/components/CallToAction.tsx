@@ -181,7 +181,7 @@ export default function CallToAction() {
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
-                href="tel:+49123456789"
+                href="tel:+4920189083052"
                 className="group inline-flex items-center gap-3 px-8 py-5 bg-white text-craft-700 font-bold text-lg rounded-full border-3 border-craft-600 hover:bg-craft-50 transition-all duration-200 shadow-xl"
               >
                 <svg

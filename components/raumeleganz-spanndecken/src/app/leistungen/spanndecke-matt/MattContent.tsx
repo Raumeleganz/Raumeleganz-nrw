@@ -485,10 +485,10 @@ export default function MattContent() {
                   Jetzt Termin vereinbaren
                 </Link>
                 <a
-                  href="tel:+4921234567890"
+                  href="tel:+4920189083052"
                   className="block w-full px-6 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 hover:scale-[1.02] transition-all duration-200 text-center"
                 >
-                  0212 / 34 567 890
+                  +49 (0) 20189083052
                 </a>
                 <div className="mt-6 pt-6 border-t border-white/30 space-y-3 text-sm text-white/95">
                   <p className="flex items-center gap-2">
@@ -618,7 +618,7 @@ export default function MattContent() {
 
               <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
                 <a
-                  href="tel:+4921234567890"
+                  href="tel:+4920189083052"
                   className="group w-full sm:w-auto px-10 py-5 bg-white text-slate-900 font-bold rounded-2xl hover:bg-slate-50 transition-all duration-200 shadow-xl text-lg inline-flex items-center justify-center gap-3"
                 >
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-cyan-600 group-hover:scale-110 transition-transform duration-200">

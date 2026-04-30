@@ -39,7 +39,7 @@ export default function DatenschutzPage() {
                     12345 Musterstadt
                   </p>
                   <p className="mt-3">
-                    <span className="font-bold">Telefon:</span> +49 (0) 123 456789<br />
+                    <span className="font-bold">Telefon:</span> +49 (0) 20189083052<br />
                     <span className="font-bold">E-Mail:</span>{' '}
                     <a href="mailto:info@raumeleganz-spanndecken.de" className="text-craft-600 hover:text-craft-700 underline">
                       info@raumeleganz-spanndecken.de

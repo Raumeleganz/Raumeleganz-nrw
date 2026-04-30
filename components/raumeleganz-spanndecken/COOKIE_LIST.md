@@ -132,7 +132,7 @@ Sie können Ihre Cookie-Einstellungen jederzeit anpassen:
 
 Bei Fragen zu Cookies und Datenschutz:
 - **E-Mail:** info@raumeleganz-spanndecken.de
-- **Telefon:** +49 (0) 123 456789
+- **Telefon:** +4920189083052
 
 Weitere Informationen finden Sie in unserer [Datenschutzerklärung](/datenschutz).
 

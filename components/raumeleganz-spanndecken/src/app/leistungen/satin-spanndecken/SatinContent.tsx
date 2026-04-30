@@ -473,7 +473,7 @@ export default function SatinContent() {
                       Jetzt kostenlos beraten lassen
                     </Link>
                     <a
-                      href="tel:+49123456789"
+                      href="tel:+4920189083052"
                       className="w-full sm:w-auto px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 hover:scale-[1.02] transition-all duration-200 shadow-xl flex items-center justify-center gap-2"
                     >
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -498,8 +498,8 @@ export default function SatinContent() {
                 <Link href="/kontakt" className="block w-full bg-white text-slate-900 text-center font-bold py-3 rounded-xl hover:bg-slate-50 transition-all duration-200 mb-4 shadow-lg">
                   Termin vereinbaren
                 </Link>
-                <a href="tel:+49123456789" className="block w-full bg-white/10 backdrop-blur-sm text-white text-center font-bold py-3 rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 mb-6">
-                  +49 (0) 123 456789
+                <a href="tel:+4920189083052" className="block w-full bg-white/10 backdrop-blur-sm text-white text-center font-bold py-3 rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 mb-6">
+                  +49 (0) 20189083052
                 </a>
                 <div className="pt-6 border-t-2 border-white/30 text-sm text-white/90 space-y-2">
                   <p className="flex items-center gap-2">

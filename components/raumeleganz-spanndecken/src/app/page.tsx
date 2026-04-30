@@ -276,7 +276,7 @@ export default function HomePage() {
                       Jetzt Termin vereinbaren
                     </a>
                     <a 
-                      href="tel:+4921234567890" 
+                      href="tel:+4920189083052" 
                       className="inline-block px-8 py-3 bg-cyan-700 text-white font-bold rounded-xl hover:bg-cyan-800 transition-all duration-200 hover:scale-105 shadow-xl"
                     >
                       Direkt anrufen

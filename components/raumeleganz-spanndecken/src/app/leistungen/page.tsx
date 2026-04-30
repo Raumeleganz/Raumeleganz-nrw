@@ -240,7 +240,7 @@ export default function LeistungenPage() {
                     Jetzt Termin vereinbaren
                   </a>
                   <a
-                    href="tel:+49123456789"
+                    href="tel:+4920189083052"
                     className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 ease-out hover:scale-105"
                   >
                     <svg

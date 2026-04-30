@@ -964,7 +964,7 @@ export default function LeistungenDetail() {
                 </svg>
               </Link>
                 <a
-                  href="tel:+49123456789"
+                  href="tel:+4920189083052"
                   className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold text-base rounded-xl border-2 border-slate-200 hover:border-cyan-400 hover:shadow-lg transition-all duration-200 ease-out hover:scale-105"
                 >
                   <svg

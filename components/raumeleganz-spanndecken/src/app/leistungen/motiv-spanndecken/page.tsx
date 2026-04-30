@@ -380,7 +380,7 @@ export default function MotivSpanndeckenPage() {
                       Motiv-Galerie ansehen
                     </Link>
                     <a
-                      href="tel:+49123456789"
+                      href="tel:+4920189083052"
                       className="w-full sm:w-auto px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 hover:scale-[1.02] transition-all duration-200 shadow-xl flex items-center justify-center gap-2"
                     >
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -429,10 +429,10 @@ export default function MotivSpanndeckenPage() {
                   Jetzt Termin vereinbaren
                 </Link>
                 <a
-                  href="tel:+49123456789"
+                  href="tel:+4920189083052"
                   className="block w-full px-6 py-4 bg-white/10 backdrop-blur-sm text-white font-bold rounded-xl border-2 border-white/30 hover:bg-white/20 transition-all duration-200 text-center shadow-lg hover:scale-105"
                 >
-                  +49 (0) 123 456789
+                  +49 (0) 20189083052
                 </a>
                 <div className="mt-6 pt-6 border-t-2 border-white/30 space-y-3 text-sm">
                   {[

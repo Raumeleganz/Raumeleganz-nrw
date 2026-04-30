@@ -519,7 +519,7 @@ export default function LackspanndeckenPage() {
                       Kostenlose 3D-Visualisierung
                     </Link>
                     <a
-                      href="tel:+49123456789"
+                      href="tel:+4920189083052"
                       className="w-full sm:w-auto px-8 py-4 bg-purple-700 text-white font-bold rounded-xl hover:bg-purple-800 hover:scale-105 transition-all duration-200 shadow-xl flex items-center justify-center gap-2 text-lg"
                     >
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -574,10 +574,10 @@ export default function LackspanndeckenPage() {
                   Jetzt Termin vereinbaren
                 </Link>
                 <a
-                  href="tel:+49123456789"
+                  href="tel:+4920189083052"
                   className="block w-full px-6 py-4 bg-purple-700 text-white font-bold rounded-xl hover:bg-purple-800 transition-all duration-200 text-center shadow-lg hover:scale-105"
                 >
-                  +49 (0) 123 456789
+                  +49 (0) 20189083052
                 </a>
                 <div className="mt-6 pt-6 border-t border-white/30 space-y-3 text-sm">
                   <p className="flex items-center gap-2">

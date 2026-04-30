@@ -64,7 +64,7 @@ export default async function StadtPage({ params }: PageProps) {
       name: city.name,
     },
     priceRange: '€€',
-    telephone: '+49 123 456789',
+    telephone: '+4920189083052',
     openingHours: 'Mo-Fr 08:00-18:00',
   };
 
