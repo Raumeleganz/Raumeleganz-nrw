@@ -443,8 +443,8 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div className="text-slate-300">
-                  <p>Musterstraße 123</p>
-                  <p>12345 Musterstadt</p>
+                  <p>Altenessenerstr. 95</p>
+                  <p>45326 Essen</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">
