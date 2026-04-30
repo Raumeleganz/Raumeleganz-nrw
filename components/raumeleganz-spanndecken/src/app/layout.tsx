@@ -5,9 +5,8 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
-import dynamic from "next/dynamic";
-
-const TrackingManager = dynamic(
+import dynamicImport from "next/dynamic";
+const TrackingManager = dynamicImport(
   () => import("@/components/TrackingManager"),
   { ssr: false }
 );
