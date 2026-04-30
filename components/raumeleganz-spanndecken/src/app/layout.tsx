@@ -5,7 +5,12 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
-import TrackingManager from '@/components/TrackingManager';
+import dynamic from "next/dynamic";
+
+const TrackingManager = dynamic(
+  () => import("@/components/TrackingManager"),
+  { ssr: false }
+);
 
 const inter = Inter({
   subsets: ['latin'],
