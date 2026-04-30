@@ -4,11 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
-import dynamicImport from "next/dynamic";
-const TrackingManager = dynamicImport(
-  () => import("@/components/TrackingManager"),
-  { ssr: false }
-);
+import TrackingWrapper from '@/components/TrackingWrapper';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -37,9 +33,8 @@ export default function RootLayout({
         </main>
         <Footer />
         <CookieBanner />
-        <TrackingManager />
+        <TrackingWrapper />
       </body>
     </html>
   );
 }
-
