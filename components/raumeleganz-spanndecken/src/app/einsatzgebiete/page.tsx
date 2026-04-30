@@ -12,10 +12,19 @@ export default function EinsatzgebietePage() {
   // Sortiere Städte alphabetisch
   const sortedCities = [...cities].sort((a, b) => a.name.localeCompare(b.name));
   
+  const normalizeForSearch = (value: string) =>
+    value
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // remove diacritics (ä -> a, etc.)
+      .replace(/\s+/g, ' ')
+      .trim();
+
   // Filter Cities
-  const filteredCities = sortedCities.filter(city => 
-    city.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const normalizedSearch = normalizeForSearch(searchTerm);
+  const filteredCities = normalizedSearch
+    ? sortedCities.filter((city) => normalizeForSearch(city.name).startsWith(normalizedSearch))
+    : sortedCities;
 
   // Gruppiere Städte nach Anfangsbuchstaben
   const groupedCities = filteredCities.reduce((acc, city) => {
@@ -74,6 +83,53 @@ export default function EinsatzgebietePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
+
+              {/* Live Treffer direkt unter der Suche (damit man nicht scrollen muss) */}
+              {normalizedSearch && (
+                <div className="mt-4 bg-white rounded-2xl border-2 border-slate-200 shadow-xl overflow-hidden text-left">
+                  <div className="px-5 py-3 bg-gradient-to-r from-cyan-50 to-blue-50 border-b border-slate-200 flex items-center justify-between gap-3">
+                    <div className="text-sm font-bold text-slate-900">
+                      Treffer: <span className="text-cyan-700">{filteredCities.length}</span>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setSearchTerm('')}
+                      className="text-xs font-bold text-slate-700 hover:text-slate-900 px-3 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 transition-colors"
+                    >
+                      Löschen
+                    </button>
+                  </div>
+
+                  {filteredCities.length > 0 ? (
+                    <div className="max-h-72 overflow-auto">
+                      {filteredCities.slice(0, 10).map((city) => (
+                        <Link
+                          key={city.slug}
+                          href={`/einsatzgebiete/${city.slug}`}
+                          className="flex items-center justify-between gap-3 px-5 py-4 hover:bg-slate-50 transition-colors"
+                        >
+                          <div className="min-w-0">
+                            <div className="font-bold text-slate-900 truncate">{city.name}</div>
+                            <div className="text-xs text-slate-600">{city.postalCode}</div>
+                          </div>
+                          <div className="flex-shrink-0 text-cyan-700 font-bold text-sm">
+                            Öffnen →
+                          </div>
+                        </Link>
+                      ))}
+                      {filteredCities.length > 10 && (
+                        <div className="px-5 py-3 text-xs text-slate-600 border-t border-slate-200">
+                          Es werden die ersten 10 Treffer angezeigt. Scrollen Sie weiter unten für die komplette Liste.
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="px-5 py-6 text-sm text-slate-700">
+                      Keine Städte gefunden für <span className="font-bold">„{searchTerm}“</span>.
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Trust Indicators */}
